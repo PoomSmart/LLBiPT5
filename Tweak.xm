@@ -6,7 +6,7 @@
 
 %hook AVCaptureDeviceFormat
 
-- (BOOL)supportsLowLightBoost {	return YES; }
+- (BOOL)supportsLowLightBoost { return YES; }
 
 %end
 
