@@ -1,0 +1,8 @@
+Architecture: iphoneos-arm
+Name: LLBiPT5
+Package: org.thebigboss.llbipt5
+Version: 1.0
+Author: PoomSmart
+Pre-Depends: firmware (>= 6.0), cy+model.ipod (= 5.1)
+Depends: mobilesubstrate, preferenceloader
+Description: Enable Low-Light mode Camera in your iPod Touch 5G.

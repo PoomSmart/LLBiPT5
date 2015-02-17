@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>title</key>
+    <string>LLBiPT5</string>
+    <key>entry</key>
+    <dict>
+      <key>cell</key>
+      <string>PSLinkCell</string>
+      <key>icon</key>
+      <string>LLBiPT5.png</string>
+      <key>label</key>
+      <string>LLBiPT5</string>
+    </dict>
+    <key>items</key>
+    <array>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Toggle</string>
+        <key>footerText</key>
+        <string>Low-light boost is the hidden feature of camera since iOS 6, available only in iPhone 5, iPhone 5c, and iPod touch 5G.
+By toggling the feature in iOS 8, LLBiPT5 will also kill process named "mediaserverd", which may cause a freeze at the moment.</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <true/>
+        <key>defaults</key>
+        <string>com.PS.LLBiPT5</string>
+        <key>key</key>
+        <string>LLB</string>
+        <key>label</key>
+        <string>Enable Low-light boost</string>
+        <key>PostNotification</key>
+        <string>com.PS.LLBiPT5.prefs</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerAlignment</key>
+        <integer>1</integer>
+        <key>footerText</key>
+        <string>© 2013 - 2014 Thatchapon Unprasert
+(@PoomSmart)</string>
+      </dict>
+    </array>
+  </dict>
+</plist>
